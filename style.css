@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+html {
+  background-image: url("assets/japan-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.greeting {
+  padding-left: 50px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  color: white;
+}
+
+.clock {
+  font-family: Arial;
+  color: white;
+  padding: 30px;
+}
+
+#date {
+  font-size: 15px !important;
+  text-align: center;
+}
+.clock ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  gap: 5px;
+}
+
+.mainFocusDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: white;
+  font-family: arial;
+}
+
+.toDoList {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 65%;
+  padding-top: 10%;
+  color: white;
+  font-family: monospace;
+}
+
+.randomQuotesDiv {
+  padding-top: 50px;
+}
+
+.randomQuoteFlex {
+  display: flex;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.randomQuote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

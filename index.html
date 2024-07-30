@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="flexContainer">
+    <div class="greeting">
+      <h1 class="header">Hello, please enter your preferred nickname.</h1>
+      <form id="updateName">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <input type="submit" value="Set">
+      </form>
+    </div>
+    <div class="clock">
+      <div id="date">Monday 01 July 2024</div>
+
+      <ul>
+        <li id="hours"></li>
+        <li id="point">:</li>
+        <li id="mins"></li>
+        <li id="point">:</li>
+        <li id="secs"></li>
+        <li id="day"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mainFocusDiv">
+    <h1 class="focusHeader">Please input your main focus for the day.</h1>
+    <form id="mainFocus">
+      <input type="text" id="focus" placeholder="Main Focus" required>
+      <input type="submit" value="Set">
+    </form>
+  </div>
+  <div class="randomQuotesDiv">
+      <h2 class="randomQuote">Need motivation? Press the Random Quote button for a little inspiration.</h2>
+      <div class="randomQuoteFlex">
+          <form id="addQuoteForm">
+              <input type="text" id="quote" placeholder="Enter a new quote" required>
+              <input type="submit" value="Add">
+          </form>
+          <button id="randomQuoteButton">Random Quote</button>
+      </div>
+  </div>
+  <div class="toDoList">
+    <h2>Tasks for today:</h2>
+    <form id="todo">
+      <input type="text" id="listBox" required />
+      <input type="submit" value="Add"/>
+      <div id="list"></div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
